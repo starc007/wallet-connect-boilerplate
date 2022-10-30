@@ -5,7 +5,7 @@ const AuthContext = createContext();
 
 export const useAuth = () => useContext(AuthContext);
 
-const rpc = {
+const rpcUrl = {
   1: "https://rpc.ankr.com/eth",
   56: "https://rpc.ankr.com/bsc",
   137: "https://rpc.ankr.com/polygon",
@@ -37,7 +37,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   const connectWalletConnect = async () => {
-    const _client = new useWalletConnect({ rpcObj: rpc });
+    const _client = new useWalletConnect({ rpc: rpcUrl });
     const _wallet = await _client._connectWC();
     if (_wallet.success) {
       localStorage.setItem("walletPr", "walletconnect");
