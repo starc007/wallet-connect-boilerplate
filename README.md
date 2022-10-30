@@ -7,7 +7,7 @@
 
 ## Features
 
-- Connect to Wallet (Metamask, WalletConnect)
+- Connect to Wallet (Metamask, WalletConnect, more coming soon)
 - Network Change Detection
 - Account Change Detection
 - Disconnect from Wallet
