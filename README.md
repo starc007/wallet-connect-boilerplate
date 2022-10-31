@@ -48,6 +48,10 @@ npm run dev
 
 - will add boilerplate for other Frontend Frameworks
 
+## Support
+
+If you like this project, please consider giving it a ⭐️ on Github and sharing it with your friends via social media.
+
 ## License
 
 MIT
