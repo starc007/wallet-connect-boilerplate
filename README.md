@@ -1,5 +1,7 @@
 # Wallet Connection Boilerplate in React
 
+<p align="center"><img src="./src/assets/demo.gif" alt="github-profile-readme-generator gif" /></p>
+
 ## Wallet Supported
 
 - Metamask
